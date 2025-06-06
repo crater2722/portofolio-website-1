@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "essays",
+  "info": {
+    "singularName": "essay",
+    "pluralName": "essays",
+    "displayName": "essay"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Preview": {
+      "type": "text"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "component",
+      "component": "shared.tags",
+      "repeatable": true
+    }
+  }
+}
